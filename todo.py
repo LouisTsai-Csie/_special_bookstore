@@ -10,7 +10,7 @@ def getBookstoreInfo(items):
         # 用 st.write 呈現書店的 Address
         expander.subheader('Open Time')
         # 用 st.write 呈現書店的 Open Time
-        expander.subheader('Email')
+		expander.subheader('Email')
 		# 用 st.write 呈現書店的 Email
         # 將該 expander 放到 expanderList 中
     return expanderList
