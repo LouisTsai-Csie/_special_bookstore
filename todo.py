@@ -1,5 +1,5 @@
 def getBookstoreInfo(items):
-    expanderList = []
+	expanderList = []
     for item in items:
         expander = st.expander(item['name'])
         expander.image(item['representImage'])
