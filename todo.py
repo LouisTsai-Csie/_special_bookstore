@@ -14,5 +14,5 @@ def app():
     st.write(f'總共有{num}項結果', num)
 		
     # 幫 specificBookstore 進行排序
-	# hint: 使用 lambda 和 sort
+    # hint: 使用 lambda 和 sort
     bookstoreInfo = getBookstoreInfo(specificBookstore)
