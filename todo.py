@@ -11,7 +11,7 @@ def getBookstoreInfo(items):
         expander.subheader('Open Time')
         # 用 st.write 呈現書店的 Open Time
         expander.subheader('Email')
-	    # 用 st.write 呈現書店的 Email
+		# 用 st.write 呈現書店的 Email
         # 將該 expander 放到 expanderList 中
     return expanderList
 
@@ -19,8 +19,8 @@ def app():
 	bookstoreList = getAllBookstore()
 
 	countyOption = getCountyOption(bookstoreList)
-    
-    st.header('特色書店地圖')
+	
+	st.header('特色書店地圖')
 	st.metric('Total bookstore', len(bookstoreList))
 	county = st.selectbox('請選擇縣市', countyOption) 
 	districtOption = getDistrictOption(bookstoreList, county)
