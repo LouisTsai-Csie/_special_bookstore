@@ -7,7 +7,7 @@ def getAllBookstore() ->list:
 
 def app():
 	# 呼叫 getAllBookstore 函式並將其賦值給變數 bookstoreList
-    st.header('特色書店地圖')
+	st.header('特色書店地圖')
 	st.metric('Total bookstore', 118) # 將 118 替換成書店的數量
 	county = st.selectbox('請選擇縣市', ['A', 'B', 'C'])
 	district = st.multiselect('請選擇區域', ['a', 'b', 'c', 'd'])
