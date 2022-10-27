@@ -1,8 +1,8 @@
 def getSpecificBookstore(items, county, districts):
     specificBookstoreList = []
     for item in items:
-        name = item['cityName']
-        # 如果 name 不是我們選取的 county 則跳過
+		name = item['cityName']
+		# 如果 name 不是我們選取的 county 則跳過
 		# hint: 用 if-else 判斷並用 continue 跳過
 		
 		# districts 是一個 list 結構，判斷 list 每個值是否出現在 name 之中
