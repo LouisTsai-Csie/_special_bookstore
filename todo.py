@@ -1,7 +1,7 @@
-def getAllBookstore() ->list:
+def getAllBookstore():
 	url = '' # 在這裡輸入目標 url
 	headers = {"accept": "application/json"}
-	response = request.get(url, headers=headers)
+	response = requests.get(url, headers=headers)
 	# 將 response 轉換成 json 格式
 	# 回傳值
 
