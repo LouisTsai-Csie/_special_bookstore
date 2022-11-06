@@ -1,4 +1,4 @@
-def getCountyOption(items) ->list:
+def getCountyOption(items):
 	# 創建一個空的 List 並命名為 optionList
 	for item in items:
 		# 把 cityname 欄位中的縣市名稱擷取出來 並指定給變數 name
