@@ -1,4 +1,4 @@
-def getDistrictOption(items, target) ->list:
+def getDistrictOption(items, target):
 	optionList = []
 	for item in items:
 		name = item['cityName']
