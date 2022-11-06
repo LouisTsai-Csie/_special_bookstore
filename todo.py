@@ -14,8 +14,7 @@ def app():
 	st.header('特色書店地圖')
 	st.metric('Total bookstore', len(bookstoreList))
 	county = st.selectbox('請選擇縣市', countyOption) 
-	#districtOption = getDistrictOption(bookstoreList, county)
-	#district = st.multiselect('請選擇區域', districtOption) 
+	 
 	
 	# 呼叫 getSpecificBookstore 並將回傳值賦值給變數 specificBookstore
 	num = len(specificBookstore)
